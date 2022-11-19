@@ -1,0 +1,35 @@
+.noticias {
+  border-radius: 30px;
+  max-width: 100%;
+  box-shadow: 5px 5px 5px 5px #45bbbb;
+  transition: all;
+  transition-duration: 2s;
+}
+.noticias:hover {
+  transform: rotate(20deg);
+}
+
+.caja-imagen {
+  width: 45%;
+  margin-right: 10px;
+  height: 250px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.caja-imagen-uno {
+  background-image: url(../../assets/img/servicio1.jpg);
+}
+.caja-imagen-dos {
+  background-image: url(../../assets/img/servicio2.jpg);
+}
+.caja-imagen-tres {
+  background-image: url(../../assets/img/servicio3.jpg);
+}
+.caja-imagen-cuatro {
+  background-image: url(../../assets/img/servicio4.jpg);
+}
+
+.caja-imagen .noticias {
+  width: 100%;
+  height: 100%;
+}
